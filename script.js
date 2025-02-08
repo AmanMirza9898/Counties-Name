@@ -19,7 +19,7 @@ const displayCountries = (countries) => {
 
         const CountryCards = document.createElement('a');
         CountryCards.classList.add('country-cards');
-        CountryCards.href = `http://127.0.0.1:5500/API%20Project/country.html?name=${country.name.common}`;
+        CountryCards.href = `./country.html?name=${country.name.common}`;
 
         const cardHTML = `
             <img src="${country.flags.svg}" alt="">
